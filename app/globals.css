@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.gradient-overlay {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  z-index: 5;
+  pointer-events: none; /* Ensures the overlay doesn't interfere with interactions */
+}
+
+.top-gradient {
+  top: 0;
+  background: linear-gradient(180deg, #010004 0%, rgba(1, 0, 4, 0) 90%);
+}
+
+.bottom-gradient {
+  bottom: 0;
+  background: linear-gradient(0deg, #010004 0%, rgba(1, 0, 4, 0) 90%);
+}
