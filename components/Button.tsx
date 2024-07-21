@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 
 
+
 const TARGET_TEXT = "Join Waitlist";
 const CYCLES_PER_LETTER = 2;
 const SHUFFLE_TIME = 50;
@@ -57,7 +58,10 @@ const EncryptButton = () => {
       }}
       onMouseEnter={scramble}
       onMouseLeave={stopScramble}
-      className="group relative overflow-hidden m-4 px-7 py-3 m-3 rounded-md bg-gradient-to-r from-[#DB7B50] to-[#75422B] transition-colors hover:text-[#B4F364]"
+      onClick={()=>{
+        window.location.href='https://tally.so/r/w7Z52P'
+      }}
+      className="group relative overflow-hidden m-3 px-7 py-3  rounded-md bg-gradient-to-r from-[#DCC710] to-[#A7690B] transition-colors hover:text-[#ffffff]"
     >
       <div className="relative z-10 flex items-center gap-2">
         
@@ -76,7 +80,7 @@ const EncryptButton = () => {
           duration: 1,
           ease: "linear",
         }}
-        className="duration-300 absolute inset-0 z-0 scale-125 bg-gradient-to-t from-green-400/0 from-40% via-green-400/100 to-green-400/0 to-60% opacity-0 transition-opacity group-hover:opacity-100"
+        className="duration-300 absolute inset-0 z-0 scale-125 bg-gradient-to-t   from-neutral-50/0 from-40% via-neutral-50/100 to-neutral-50/0 to-60% opacity-0 transition-opacity group-hover:opacity-100"
       />
     </motion.button>
   );
