@@ -22,10 +22,7 @@ const FAQs = () => {
         { text: "Networking with developers and founders in the StarkNet ecosystem", bullet: true }
       ]
     },
-    {
-      title: "How does Cairo DAO community work?",
-      description: ["NA"]
-    },
+    
     {
       title: "What types of projects does Cairo DAO support?",
       description: [

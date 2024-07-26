@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="flex justify-between items-center  pt-[14px] pr-[14px] pl-[14px] sm:pt-[14px] sm:pr-[28px] sm:pl-[28px] ">
         
         <div className="flex-1 sm:pl-[294px] pl-[147] flex justify-center">
-            <Image src='/logo.png' alt='logo' width='202' height='34' />
+            <Image src='/logo.png' alt='logo' width='56' height='56' />
         </div>
         <div >
            <div className='sm:flex flex-row gap-4 hidden'>

@@ -36,7 +36,7 @@ export default function Home() {
         />
         
         <div className="gradient-overlay bottom-gradient" />
-        <div className="relative flex flex-col justify-center pt-[340px] text-center m-3">
+        <div className="relative flex flex-col justify-center pt-[300px] text-center m-3">
           <p className="text-white text-[28px] sm:text-[32px] font-light ">Join a community </p>
           <p className="text-white text-[28px] sm:text-[32px] font-light ">of Builders & Founders </p>
           {/* <button className="px-7 py-3 m-3 rounded-md bg-gradient-to-r from-[#DB7B50] to-[#75422B]">Join Waitlist</button> */}
@@ -68,7 +68,7 @@ export default function Home() {
       <footer  id="footer-section" className="flex justify-center items-center  relative z-10  ">
         <div className="w-[380px] sm:w-[1140px] h-[181px] flex flex-col sm:flex-row justify-around items-center bg-[#1B1919] border-t border-x border-x-[#EDAA2A] border-t-[#EDAA2A]  rounded-t-[50px]">
          <div className="w-[168px] sm:w-[322px] h-[40px] sm:h-[81px] " >
-          <Image src='/footer.png' alt="footer" width={322} height={81} />
+          <Image src='/logo.png' alt="footer" width={86} height={86} />
          </div>
          <div className="flex flex-row justify-center cursor-pointer gap-x-10 w-[40px] sm:w-[52px] items-center">
          <Image onClick={()=>{window.location.href='https://discord.gg/2kvtJTUF'}} src='/discord.svg' alt='logo' width={52} height={52} />
