@@ -36,7 +36,7 @@ export default function Home() {
         />
         
         <div className="gradient-overlay bottom-gradient" />
-        <div className="relative flex flex-col justify-center pt-[300px] text-center m-3">
+        <div className="relative flex flex-col justify-center pt-[21%] text-center m-3">
           <p className="text-white text-[28px] sm:text-[32px] font-light ">Join a community </p>
           <p className="text-white text-[28px] sm:text-[32px] font-light ">of Builders & Founders </p>
           {/* <button className="px-7 py-3 m-3 rounded-md bg-gradient-to-r from-[#DB7B50] to-[#75422B]">Join Waitlist</button> */}
@@ -71,7 +71,7 @@ export default function Home() {
           <Image src='/logo.png' alt="footer" width={86} height={86} />
          </div>
          <div className="flex flex-row justify-center cursor-pointer gap-x-10 w-[40px] sm:w-[52px] items-center">
-         <Image onClick={()=>{window.location.href='https://discord.gg/2kvtJTUF'}} src='/discord.svg' alt='logo' width={52} height={52} />
+         <Image onClick={()=>{window.location.href='https://discord.gg/T2DjbPeUQA'}} src='/discord.svg' alt='logo' width={52} height={52} />
          <Image onClick={()=>{window.location.href='https://x.com/cairo_dao'}} src='/X.svg' alt='logo' width={52} height={52} />
          {/* <Image onClick={()=>{window.location.href='/'}} src='/telegram.svg' alt='logo' width={52} height={52} /> */}
          <Image onClick={()=>{window.location.href='https://cairodao.gitbook.io/cairodao/'}} src='/GitBook.png' alt='logo' width={52} height={52} />
